@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": "25",
+      "fulname": "Asadbe mirmahmudovf",
+      "phone": "990126589",
+      "jins": "ayol",
+      "kurs": "4-kurs",
+      "guruh": "366-23",
+      "fakultet": "ATK",
+      "tutor": "Nazarbek Sharifjonov",
+      "manzil": "Aergana Oltiariq"
+    },
+    {
+      "id": "2",
+      "fulname": "Nursulton Ro'ziboyev",
+      "phone": "882335567",
+      "jins": "erkak",
+      "kurs": "2-kurs",
+      "guruh": "625-22",
+      "fakultet": "KIF",
+      "tutor": "Nazarbek Sharifjonov",
+      "manzil": "Andijon Beshariq"
+    },
+    {
+      "id": "7695",
+      "fulname": "Asadbek Mirmahmudov MIrmuhammad O'g'li",
+      "phone": "913444468",
+      "jins": "erkak",
+      "kurs": "4-kurs",
+      "guruh": "611-21",
+      "fakultet": "KIF",
+      "tutor": "Kamoliddin Nosirov",
+      "manzil": "Namanfan Chust"
+    },
+    {
+      "id": "2ee3",
+      "fulname": "Asadbek",
+      "phone": "913444468",
+      "jins": "erkak",
+      "kurs": "3-kurs",
+      "guruh": "611-21",
+      "fakultet": "KIF",
+      "tutor": "Ozodbek ",
+      "manzil": "Namangan chust"
+    },
+    {
+      "id": "bf57",
+      "fulname": "MuhammadDiyor ",
+      "phone": "656546",
+      "jins": "erkak",
+      "kurs": "3-kurs",
+      "guruh": "650-21",
+      "fakultet": "DIF",
+      "tutor": "fhfdghdjfhk",
+      "manzil": "dskdshjsd"
+    },
+    {
+      "id": "610b",
+      "fulname": "fdhjfdjh",
+      "phone": "",
+      "jins": "ayol",
+      "kurs": "1-kurs",
+      "guruh": "",
+      "fakultet": "",
+      "tutor": "",
+      "manzil": ""
+    },
+    {
+      "id": "9cdd",
+      "fulname": "",
+      "phone": "",
+      "jins": "ayol",
+      "kurs": "1-kurs",
+      "guruh": "",
+      "fakultet": "",
+      "tutor": "",
+      "manzil": ""
+    }
+  ],
+  "student": [
+    {
+      "id": "5",
+      "fulname": "Otabe mirmahmudovf",
+      "phone": "913444468",
+      "jins": "erkak",
+      "kurs": "3-kurs",
+      "guruh": "611-21",
+      "fakultet": "KIF",
+      "tutor": "Ozodbek Sharifjonov",
+      "manzil": "Andijon Chust",
+      "type": "Kunduzgi",
+      "balans": "700000",
+      "room": "312-xona"
+    },
+    {
+      "id": "6",
+      "fulname": "Asadbek mirmahmudovf",
+      "phone": "913444468",
+      "jins": "erkak",
+      "kurs": "2-kurs",
+      "guruh": "611-22",
+      "fakultet": "KIF",
+      "tutor": "Alisher Sharifjonov",
+      "manzil": " Pop",
+      "type": "Kechki",
+      "balans": "800000",
+      "room": "212-xona"
+    },
+    {
+      "id": "8",
+      "fulname": "Aziza mirmahmudovf",
+      "phone": "956568649",
+      "jins": "ayol",
+      "kurs": "3-kurs",
+      "guruh": "650-21",
+      "fakultet": "KIF",
+      "tutor": "Ziyodullo Sharifjonov",
+      "manzil": "Qo'qon",
+      "type": "Kunduzgi",
+      "balans": "500000",
+      "room": "110-xona"
+    },
+    {
+      "id": "9",
+      "fulname": "Zilola Normatova",
+      "phone": "903134589",
+      "jins": "ayol",
+      "kurs": "3-kurs",
+      "guruh": "101-21",
+      "fakultet": "KIF",
+      "tutor": "Asadbek Sharifjonov",
+      "manzil": "Namangan Chust",
+      "type": "Kunduzgi",
+      "balans": "1700000",
+      "room": "105-xona"
+    }
+  ]
+}

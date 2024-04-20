@@ -1,0 +1,27 @@
+
+.box .box_header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box .box_header h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.box .box_body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.smalL_box {
+  text-align: center;
+  width: 20%;
+}

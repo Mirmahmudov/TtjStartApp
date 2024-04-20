@@ -1,0 +1,84 @@
+h1 {
+  font-size: 32px;
+  color: #0c5fcd;
+  text-transform: capitalize;
+}
+
+table {
+  width: 100%;
+  /* border: 1px solid black; */
+  /* text-align: \; */
+  border-collapse: collapse;
+  text-transform: capitalize;
+}
+
+table td,
+th {
+  padding: 10px 5px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+  font-size: 12px;
+}
+table th {
+  font-size: 14px;
+  cursor: pointer;
+}
+table th svg{
+  margin-bottom: -2px;
+  margin-left: 2px;
+}
+table th select {
+  /* background-color: red; */
+  width: 150%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  appearance: none;
+  cursor: pointer;
+}
+
+td button,
+a {
+  padding: 5px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+  border: none;
+  color: white;
+  background: none;
+  font-weight: 700;
+}
+
+td a {
+  color: white;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 6px;
+  border: 1px solid #0c5fcd;
+}
+.search svg {
+  font-size: 22px;
+  color: #0c5fcd;
+}
+.search input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.search input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  color: #0c5fcd;
+  text-transform: capitalize;
+}

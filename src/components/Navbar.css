@@ -1,0 +1,96 @@
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+.create h2 {
+  color: #0c5fcd;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.create form {
+  width: 80%;
+  display: flex;
+  align-items: self-start;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+.create form .inputs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.create form .inputs label {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  gap: 10px;
+  padding: 10px;
+  align-items: self-start;
+  width: 45%;
+}
+.create form .inputs label input {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.create form .inputs label input::placeholder {
+  text-transform: capitalize;
+}
+
+.create form .inputs label select {
+  width: 50%;
+  font-size: 16px;
+  outline: none;
+  padding: 7px 0px;
+  cursor: pointer;
+  border: 1px solid gray;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.create form button {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: #0c5fcd;
+  color: white;
+  display: inline-block;
+}
+.create .exit {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+.create .exit svg {
+  font-size: 30px;
+  color: gray;
+  cursor: pointer;
+}
+
+.create form .inputs a {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: #f0483e;
+  color: white;
+  display: inline-block;
+}
