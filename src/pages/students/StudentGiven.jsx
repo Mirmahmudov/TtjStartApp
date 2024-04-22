@@ -195,11 +195,13 @@ function StudentGiven() {
                   FISH
                   {sorted.sorted === "name" ? renderArrow() : null}
                 </th>
-                <th>
+                <th className="selected">
+                  <h4>Jins</h4>
                   <select onChange={sortByGender}>
-                    <option value="">jins</option>
+                    <option value="">All</option>
                     <option value="erkak">erkak</option>
                     <option value="ayol">ayol</option>
+                    {sorted.sorted === "gender" ? renderArrow() : null}
                   </select>
                 </th>
                 <th>Tel</th>

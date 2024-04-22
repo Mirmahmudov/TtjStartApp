@@ -20,14 +20,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/students" element={<Students />} />
-          <Route path="/paymet" element={<Paymet />} />
-          <Route path="/rooms" element={<Rooms />} />
           <Route path="/studentwait" element={<StudentWait />} />
           <Route path="/studentgiven" element={<StudentGiven />} />
           <Route path="/studentout" element={<StudentOut />} />
           <Route path="/studentupdate/:id" element={<StudentUpdate />} />
-          <Route path="/studentcreate" element={<StudentCreate />} />
           <Route path="/studentread/:id" element={<StudentRead />} />
+          <Route path="/studentcreate" element={<StudentCreate />} />
+          <Route path="/rooms" element={<Rooms />} />
+          <Route path="/paymet" element={<Paymet />} />
         </Routes>
       </BrowserRouter>
     </>

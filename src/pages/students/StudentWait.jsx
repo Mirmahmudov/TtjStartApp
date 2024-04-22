@@ -3,7 +3,13 @@ import Navbar from "../../components/Navbar";
 import Sidenav from "../../components/Sidenav";
 import Box from "@mui/material/Box";
 import { Link, useNavigate } from "react-router-dom";
-import { FaUserMinus, FaUserPlus, FaUserEdit, FaArrowUp, FaArrowDown } from "react-icons/fa";
+import {
+  FaUserMinus,
+  FaUserPlus,
+  FaUserEdit,
+  FaArrowUp,
+  FaArrowDown,
+} from "react-icons/fa";
 import axios from "axios";
 
 function StudentWait() {
@@ -16,8 +22,8 @@ function StudentWait() {
     axios
       .get("http://localhost:3000/users")
       .then((res) => {
-        setData(res.data)
-        setUsers(res.data)
+        setData(res.data);
+        setUsers(res.data);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -167,14 +173,16 @@ function StudentWait() {
           </Box>
           <table>
             <thead>
-            <tr>
+              <tr>
                 <th onClick={sortByName}>
                   FISH
                   {sorted.sorted === "name" ? renderArrow() : null}
                 </th>
-                <th>
+
+                <th className="selected">
+                  <h4>Jins</h4>
                   <select onChange={sortByGender}>
-                    <option value="">jins</option>
+                    <option value="">All</option>
                     <option value="erkak">erkak</option>
                     <option value="ayol">ayol</option>
                     {sorted.sorted === "gender" ? renderArrow() : null}
@@ -198,72 +206,48 @@ function StudentWait() {
                   adress
                   {sorted.sorted === "manzil" ? renderArrow() : null}
                 </th>
-                <th>Type</th>
-               
-               
+
                 <th>Action</th>
               </tr>
             </thead>
             <tbody>
-              {
-                users?.map((item, i) => {
-                  console.log(item);
-                  return (
-                    <>
-                      <tr>
-                        <td>{item.fulname.slice(0, 15)}..</td>
-                        <td>{item.jins}</td>
-                        <td>{item.phone}</td>
-                        <td>{item.kurs}</td>
-                        <td>{item.guruh} </td>
-                        <td>{item.fakultet}</td>
-                        <td>{item.tutor.slice(0, 10)}... </td>
-                        <td>{item.manzil}</td>
-                        <td>
-                          <Link
-                            to={`/studentupdate/${item.id}`}
-                            style={{ color: "#F4BA24" }}
-                          >
-                            <FaUserEdit /> tahrirlash
-                          </Link>
-                          <Link
-                            to={`/studentread/${item.id}`}
-                            style={{ color: "#0FD76B" }}
-                          >
-                            <FaUserPlus /> band Qilish
-                          </Link>
-                          <button
-                            onClick={(e) => handleDelet(item.id)}
-                            style={{ color: "#F0483E" }}
-                          >
-                            <FaUserMinus /> O'chirish
-                          </button>
-                        </td>
-                      </tr>
-                    </>
-                  );
-                })
-                // console.log(data)
-              }
-
-              {/* {data?.map((item, i) => {
-              console.log(item.email);
-              return (
-                <tr key={i}>
-                  <td>{item.id}</td>
-                  <td>{item.name}</td>
-                  <td>{item.email}</td>
-                  <td>{item.phone}</td>
-                  <td>
-                    <Link to={`/read/${item.id}`}>read</Link>
-                    <Link to={`/update/${item.id}`}>edit</Link>
-                    <button onClick={(e) => handleDelet(item.id)}>
-                      delete
-                    </button>
-                  </td>
-                </tr>
-              );
-            })} */}
+              {users?.map((item, i) => {
+                console.log(item);
+                return (
+                  <>
+                    <tr>
+                      <td>{item.fulname.slice(0, 15)}..</td>
+                      <td>{item.jins}</td>
+                      <td>{item.phone}</td>
+                      <td>{item.kurs}</td>
+                      <td>{item.guruh} </td>
+                      <td>{item.fakultet}</td>
+                      <td>{item.tutor.slice(0, 10)}... </td>
+                      <td>{item.manzil}</td>
+                      <td>
+                        <Link
+                          to={`/studentupdate/${item.id}`}
+                          style={{ color: "#F4BA24" }}
+                        >
+                          <FaUserEdit /> tahrirlash
+                        </Link>
+                        <Link
+                          to={`/studentread/${item.id}`}
+                          style={{ color: "#0FD76B" }}
+                        >
+                          <FaUserPlus /> band Qilish
+                        </Link>
+                        <button
+                          onClick={(e) => handleDelet(item.id)}
+                          style={{ color: "#F0483E" }}
+                        >
+                          <FaUserMinus /> O'chirish
+                        </button>
+                      </td>
+                    </tr>
+                  </>
+                );
+              })}
             </tbody>
           </table>
         </Box>
