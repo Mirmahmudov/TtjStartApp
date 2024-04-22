@@ -1,17 +1,6 @@
 {
   "users": [
     {
-      "id": "25",
-      "fulname": "Asadbe mirmahmudovf",
-      "phone": "990126589",
-      "jins": "ayol",
-      "kurs": "4-kurs",
-      "guruh": "366-23",
-      "fakultet": "ATK",
-      "tutor": "Nazarbek Sharifjonov",
-      "manzil": "Aergana Oltiariq"
-    },
-    {
       "id": "2",
       "fulname": "Nursulton Ro'ziboyev",
       "phone": "882335567",
@@ -54,6 +43,17 @@
       "fakultet": "DIF",
       "tutor": "fhfdghdjfhk",
       "manzil": "dskdshjsd"
+    },
+    {
+      "id": "78b2",
+      "fulname": "Asadbek",
+      "phone": "mirmahmudov",
+      "jins": "ayol",
+      "kurs": "",
+      "guruh": "gfgf;l;",
+      "fakultet": "f;lggl;fl;",
+      "tutor": "fgl;gfl;gfl;",
+      "manzil": "gl;gfl;"
     }
   ],
   "student": [

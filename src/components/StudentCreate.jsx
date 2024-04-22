@@ -7,7 +7,7 @@ function StudentCreate() {
   const [values, setValues] = useState({
     fulname: "",
     phone: "",
-    jins: "ayol",
+    jins: "erkak",
     kurs: "1-kurs",
     guruh: "",
     fakultet: "",
@@ -22,7 +22,7 @@ function StudentCreate() {
       .post("http://localhost:3000/users", values)
       .then((res) => {
         console.log(res);
-        navigate("/");
+        navigate("/studentwait");
       })
       .catch((err) => console.log(err));
   };
@@ -58,8 +58,11 @@ function StudentCreate() {
           <label htmlFor="">
             Jinsingizni kiriting <br />
             <select
-              value={values.kurs}
-              onChange={(e) => setValues({ ...values, jins: e.target.value })}
+              value={values.jins}
+              onChange={(e) => {
+                console.log(values);
+                setValues({ ...values, jins: e.target.value });
+              }}
             >
               <option value="erkak">erkak</option>
               <option value="ayol">ayol</option>
@@ -69,7 +72,7 @@ function StudentCreate() {
           <label htmlFor="kurs">
             kursni tanlang <br />
             <select
-              value={values.jins}
+              value={values.kurs}
               onChange={(e) => setValues({ ...values, kurs: e.target.value })}
             >
               <option value="1-kurs">1-kurs</option>
