@@ -46,14 +46,25 @@
     },
     {
       "id": "78b2",
-      "fulname": "Asadbek",
-      "phone": "mirmahmudov",
+      "fulname": "Zilola Normatova Husanboy qizi",
+      "phone": "913444468",
       "jins": "ayol",
-      "kurs": "",
-      "guruh": "gfgf;l;",
-      "fakultet": "f;lggl;fl;",
-      "tutor": "fgl;gfl;gfl;",
-      "manzil": "gl;gfl;"
+      "kurs": "3-kurs",
+      "guruh": "101-21",
+      "fakultet": "Biyalogiya",
+      "tutor": "Asadbek Mirmahmudov",
+      "manzil": "Namangan viloyati chust  tumani bibiona mahalla "
+    },
+    {
+      "id": "59e5",
+      "fulname": "Dilshodbelk",
+      "phone": "194949494",
+      "jins": "erkak",
+      "kurs": "2-kurs",
+      "guruh": "658-26",
+      "fakultet": "kif",
+      "tutor": "dffd fdfddf",
+      "manzil": "vc xbbxmc"
     }
   ],
   "student": [
@@ -112,6 +123,50 @@
       "type": "Kunduzgi",
       "balans": "1700000",
       "room": "105-xona"
+    }
+  ],
+  "rooms": [
+    {
+      "roomNum": "311-xona",
+      "floor": "3-qavat",
+      "place": "6-ta",
+      "spaces": "0-ta",
+      "id": "2"
+    },
+    {
+      "roomNum": "211-xona",
+      "floor": "2-qavat",
+      "place": "6-ta",
+      "spaces": "2-ta",
+      "id": "1"
+    },
+    {
+      "roomNum": "111-xona",
+      "floor": "1-qavat",
+      "place": "6-ta",
+      "spaces": "5-ta",
+      "id": "3"
+    },
+    {
+      "roomNum": "211-xona",
+      "floor": "2-qavat",
+      "place": "5-ta",
+      "spaces": "1-ta",
+      "id": "4"
+    },
+    {
+      "roomNum": "411-xona",
+      "floor": "4-qavat",
+      "place": "6-ta",
+      "spaces": "1-ta",
+      "id": "5"
+    },
+    {
+      "roomNum": "211-xona",
+      "floor": "2-qavat",
+      "place": "6-ta",
+      "spaces": "5-ta",
+      "id": "6"
     }
   ]
 }

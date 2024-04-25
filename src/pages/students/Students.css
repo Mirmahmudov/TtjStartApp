@@ -6,8 +6,7 @@ h1 {
 
 table {
   width: 100%;
-  /* border: 1px solid black; */
-  /* text-align: \; */
+  
   border-collapse: collapse;
   text-transform: capitalize;
 }
@@ -28,7 +27,9 @@ table th svg{
 }
 .selected{
   position: relative;
+  margin-left: 10px;
 }
+
 table th select {
   width: 100%;
   left: 0px;

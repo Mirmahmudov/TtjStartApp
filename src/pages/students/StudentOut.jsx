@@ -117,6 +117,16 @@ function StudentOut() {
 
     setUsers(usersCopy);
   };
+  const sortByType = (e) => {
+    setSorted({ sorted: "type", reversed: !sorted.reversed });
+
+    const newData = data.filter((item) => {
+      return item.type
+        .toLocaleLowerCase()
+        .includes(e.target.value.toLocaleLowerCase());
+    });
+    setUsers(newData);
+  };
 
   const sortByBalans = () => {
     setSorted({ sorted: "balans", reversed: !sorted.reversed });
@@ -221,7 +231,17 @@ function StudentOut() {
                   adress
                   {sorted.sorted === "manzil" ? renderArrow() : null}
                 </th>
-                <th>Type</th>
+
+                <th className="selected">
+                  <h4>type</h4>
+                  <select onChange={sortByType}>
+                    <option value="">barchasi</option>
+
+                    <option value="kunduzgi">kunduzgi</option>
+                    <option value="kechki">Kechki</option>
+                    {sorted.sorted === "gender" ? renderArrow() : null}
+                  </select>
+                </th>
                 <th onClick={sortByBalans}>
                   Hisob
                   {sorted.sorted === "balans" ? renderArrow() : null}

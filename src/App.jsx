@@ -12,6 +12,7 @@ import StudentOut from "./pages/students/StudentOut";
 import StudentUpdate from "./components/StudentUpdate";
 import StudentCreate from "./components/StudentCreate";
 import StudentRead from "./components/StudentRead";
+import RoomInfo from "./pages/rooms/RoomInfo";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/studentcreate" element={<StudentCreate />} />
           <Route path="/rooms" element={<Rooms />} />
           <Route path="/paymet" element={<Paymet />} />
+          <Route path="/roominfo/:id" element={<RoomInfo />} />
         </Routes>
       </BrowserRouter>
     </>

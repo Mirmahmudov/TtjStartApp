@@ -16,12 +16,11 @@ function StudentRead() {
 
   return (
     <div className="Read">
-      <Link to={"/"} className="exit">
-        <IoClose />
-      </Link>
       {
         <div className="user">
-          {console.log(data)}
+          <Link to={"/"} className="exit">
+            <IoClose />
+          </Link>
 
           <h1>students</h1>
           <div className="row">
